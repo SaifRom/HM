@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hangman</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body onload="randomword();generate_guesszone();">
+
+<header>
+<h1 id="headline">Hangman</h1>
+<h4 style="text-align: center;"> so in this game your goal is to save the hanged man by guessing the hidden word correctly.<br>
+ you are only allowed to enter one letter at a time and in case that it exists in the word then it will be shown <br>
+ to the player and exactly where it is.(if it doesn't show up that means that it is not in the word)<br>
+ every time you get a letter wrong he loses a limb and if he loses his head you lose.<br>
+also if you find one right he recorvers the limb he lost and of course if you find the word you win</h3>
+</header>
+<div id="present">
+<div id="hangm">
+	<img id="hangman" src="image/1.png">
+</div>
+<div id="theword">
+	<table >
+		<tr id="tr"></tr>
+	</table>
+</div>
+</div>
+<div id="guesszone">
+	<h1>Guess:</h1><input type="text" name="letter" id="guess" onchange="guesses();image_change();wrong_guess();lost();won();" >
+	<br> <h4 id="hint">hint: Means of transport with wheels</h4>
+</div>
+<div id="guesses">	
+</div>
+<div id="deadline">
+<div id="won">
+  <h2>You won</h2><br>
+  <button id="restart" onclick="restart()">restart</button>
+</div>
+<div id="lost">
+	<h2>You lost</h2><br>
+  <button id="restart" onclick="restart()">restart</button>
+</div>
+</div>
+</body>
+</html>

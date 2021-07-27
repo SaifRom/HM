@@ -1,0 +1,30 @@
+body{
+	background-color:#f28705 ;
+}
+#headline{
+  text-align: center;
+  color: #591902;
+  font-size: 50px;
+}
+#choises{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 5%;
+}
+h3{
+	text-align: center;
+	color: black;
+	margin-right: 1%;
+}
+td{
+	padding: 10px;
+	height: 300px;
+	width: 300px;
+}
+img{
+	height: 200px;
+	width: 200px;
+	border: 5px solid black;
+}
+
+

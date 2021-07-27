@@ -1,0 +1,68 @@
+body{
+	background-color:#f28705 ;
+}
+#headline{
+  text-align: center;
+  color: #591902;
+  font-size: 50px;
+}
+#present{
+	display: inline-flex;
+	margin-left: 30%;
+}
+#hang{
+    flex: 1;
+    float: left;
+    padding: 20px;
+}
+#theword{
+    float: left;
+    padding: 20px;
+    margin-top: 30%;
+}
+#guesszone{
+	margin-left: 40%;
+	margin-top: 5%;
+}
+#guesses{
+	margin-left: 30%;
+	margin-top: 1%;
+	color:#260801;
+	font-size: 20px;
+}
+#deadline{
+	display: inline-flex;
+	margin-left: 30%;
+}
+#won{
+    flex: 1;
+    float: left;
+    padding: 20px;
+    visibility: hidden;
+    font-size: 30px;
+	color: green;
+	text-align: center;
+	margin-bottom: 50%;
+}
+#lost{
+	float: left;
+    padding: 20px;
+	visibility: hidden;
+	color: red;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 50%;
+}
+button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 7.5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
